@@ -4,6 +4,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Stats from "./components/Stats";
+import Business from "./components/Business";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <div className="bg-primary flex justify-center items-center w-full md:px-16 px-6">
             <div className="w-full">
               <Stats />
-              Stats
+              <Business />
               Stats
               Stats
               Stats
