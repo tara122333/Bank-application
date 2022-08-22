@@ -28,9 +28,11 @@ const Navbar = () => {
       const [toggle,setToggle] = useState(false);
   return (
     <>
-        <nav className='flex justify-between w-full items-center py-3'>
+        <nav className='flex justify-between w-full items-center py-3 md:py-4 lg:py-6'>
             <div className="w-[124px] h-[32px]">
-                <img src={logo} alt="logo" className='w-full h-full'/>
+                {/* <img src={logo} alt="logo" className='w-full h-full'/>
+                 */}
+                 <h1 className='font-poppins font-bold text-gradient text-2xl'>TaraBank</h1>
             </div>
             <ul className='hidden  lg:flex items-center list-none justify-end'>
                 {
