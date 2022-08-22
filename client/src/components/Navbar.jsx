@@ -55,7 +55,7 @@ const Navbar = () => {
                         {
                             navLinks.map((item)=>(
                                 <li className='text-lg font-poppins text-white font-medium cursor-pointer mx-6 my-2 outline-none'>
-                                    <a href={`#${item.id}`}>{item.title}</a>
+                                    <a href={`#${item.id}`} onClick={()=>setToggle(false)}>{item.title}</a>
                                 </li>
                             ))
                         }
