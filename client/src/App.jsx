@@ -3,6 +3,7 @@ import React from "react";
 // Components
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Stats from "./components/Stats";
 
 function App() {
   return (
@@ -17,8 +18,22 @@ function App() {
             <div className="w-full">
               <Hero />
             </div>
-        </div>        
-          <h1 className="text-red-500" >This is heading tag</h1>
+        </div>
+
+        <div className="bg-primary flex justify-center items-center w-full md:px-16 px-6">
+            <div className="w-full">
+              <Stats />
+              Stats
+              Stats
+              Stats
+              Stats
+              Stats
+              Stats
+              Stats
+              Stats
+              Stats
+            </div>
+        </div> 
       </div>
     </>
   );

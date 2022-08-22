@@ -2,7 +2,7 @@ import React from 'react'
 
 
 // assest
-import { discount, robot } from "../assets";
+import { discount } from "../assets";
 import GetStart from './GetStart';
 
 
@@ -45,7 +45,7 @@ const Hero = () => {
 
                 <div className={`flex-1 flex justify-center items-center md:my-0 my-10 relative`}>
                     <div className='relative z-[5] w-[100%] h-[100%]'>
-                        <img src={robot} alt="robot" className='w-full h-full'/>
+                        <img src="https://i.ibb.co/RN5yy78/robot.png" alt="robot" className='w-full h-full'/>
                     </div>
                     <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
                     <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
