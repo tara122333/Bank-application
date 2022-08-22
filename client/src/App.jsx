@@ -10,6 +10,7 @@ import CardDeal from "./components/CardDeal";
 import Testimonials from "./components/Testimonials";
 import Client from "./components/Client";
 import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -35,9 +36,7 @@ function App() {
               <Testimonials />
               <Client />
               <CTA />
-              Stats
-              Stats
-              Stats
+              <Footer />
             </div>
         </div> 
       </div>
