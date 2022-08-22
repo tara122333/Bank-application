@@ -3,8 +3,6 @@ import { useState } from 'react';
 import {BiMenu} from 'react-icons/bi'
 import {IoClose} from 'react-icons/io5'
 
-import {logo } from "../assets";
-
 const Navbar = () => {
     const navLinks = [
         {
