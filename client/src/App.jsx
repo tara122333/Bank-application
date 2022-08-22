@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Stats from "./components/Stats";
 import Business from "./components/Business";
 import Billing from "./components/Billing";
+import CardDeal from "./components/CardDeal";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
               <Stats />
               <Business />
               <Billing />
-              Stats
+              <CardDeal />
               Stats
               Stats
               Stats
