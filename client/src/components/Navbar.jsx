@@ -38,9 +38,7 @@ const Navbar = () => {
                 {
                     navLinks.map((item)=>(
                         <li className='text-xl font-poppins text-white mx-6 cursor-pointer'>
-                            {
-                                item.title
-                            }
+                            <a href={`#${item.id}`}>{item.title}</a>
                         </li>
                     ))
                 }
@@ -57,9 +55,7 @@ const Navbar = () => {
                         {
                             navLinks.map((item)=>(
                                 <li className='text-lg font-poppins text-white font-medium cursor-pointer mx-6 my-2 outline-none'>
-                                    {
-                                        item.title
-                                    }
+                                    <a href={`#${item.id}`}>{item.title}</a>
                                 </li>
                             ))
                         }
