@@ -8,6 +8,7 @@ import Business from "./components/Business";
 import Billing from "./components/Billing";
 import CardDeal from "./components/CardDeal";
 import Testimonials from "./components/Testimonials";
+import Client from "./components/Client";
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
               <Billing />
               <CardDeal />
               <Testimonials />
-              Stats
+              <Client />
               Stats
               Stats
               Stats
