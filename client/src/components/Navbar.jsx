@@ -37,7 +37,7 @@ const Navbar = () => {
             <ul className='hidden  lg:flex items-center list-none justify-end'>
                 {
                     navLinks.map((item)=>(
-                        <li className='text-xl text-white mx-6 cursor-pointer'>
+                        <li className='text-xl font-poppins text-white mx-6 cursor-pointer'>
                             {
                                 item.title
                             }

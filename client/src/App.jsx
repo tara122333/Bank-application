@@ -9,6 +9,7 @@ import Billing from "./components/Billing";
 import CardDeal from "./components/CardDeal";
 import Testimonials from "./components/Testimonials";
 import Client from "./components/Client";
+import CTA from "./components/CTA";
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
               <CardDeal />
               <Testimonials />
               <Client />
-              Stats
+              <CTA />
               Stats
               Stats
               Stats
